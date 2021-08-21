@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Find the year of birth using your NIC</p>
+
+<script>
+
+var str = prompt("Enter you NIC number");
+
+function myFunction() {
+
+  var year = str.substring(0, 2);
+
+  document.getElementById("demo").innerHTML = "19"+year;
+}
+</script>
+
+<button onclick="myFunction()">Find birth year</button>
+
+<p id="demo"></p>
+
+</body>
+</html>
